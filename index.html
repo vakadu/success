@@ -200,6 +200,9 @@
             cursor: pointer;
             transition: background-color 0.2s;
             font-size: 14px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
         }
         
         .action-button:hover {
@@ -236,6 +239,12 @@
             font-weight: 300;
             color: rgba(161, 161, 170, 0.3);
             letter-spacing: 0.1em;
+        }
+
+        .footer-brand img {
+            width: 92px;
+            height: 32px;
+            object-fit: contain;
         }
         
         @keyframes float-slow {
@@ -411,7 +420,9 @@
                 <div class="footer-dot"></div>
                 <span class="footer-url">asmiai.com</span>
             </a>
-            <div class="footer-brand">ASMI</div>
+            <div class="footer-brand">
+                <img src="https://www.asmiai.com/images/logo.png"/>
+            </div>
         </div>
     </div>
 </body>
